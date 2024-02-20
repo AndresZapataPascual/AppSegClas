@@ -12,6 +12,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="center">
+        android:layout_gravity="center">
+
 
 
         <TextView
@@ -41,9 +43,15 @@
             android:layout_height="wrap_content"
             android:id="@+id/btn2"
             android:text="@string/btn2">
-
         </Button>
     </LinearLayout>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Alarma"
+            android:text="@string/Alarma"
+            android:layout_gravity="center">
+        </Button>
 
 </LinearLayout>
