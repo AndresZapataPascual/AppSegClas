@@ -7,6 +7,7 @@ import android.content.ActivityNotFoundException;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.AlarmClock;
+import android.provider.ContactsContract;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
@@ -151,5 +152,4 @@ public class MainActivity extends AppCompatActivity {
             // Display error state to the user.
         }
     }
-
 }
