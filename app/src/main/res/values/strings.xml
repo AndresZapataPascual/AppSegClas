@@ -5,7 +5,7 @@
     <string name="btn2">Ingresar</string>
     <string name="Alarma">Crear Alarma</string>
     <string name="Camara">Abrir Camara</string>
-    <string name= "Send">Enviar</string>
+    <string name="Send">Enviar</string>
     <string name="title_activity_pantalla_two">PantallaTwo</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
