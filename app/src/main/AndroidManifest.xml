@@ -14,6 +14,13 @@
         android:theme="@style/Theme.AppSegClas"
         tools:targetApi="31">
         <activity
+            android:name=".PantallaTwo"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.PantallaTwo"
+            android:exported="false"
+            android:label="pantalla_two" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -21,9 +28,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.SET_ALARM" />
                 <category android:name="android.intent.category.DEFAULT" />
-
+                <action android:name="android.media.action.IMAGE_CAPTURE" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
