@@ -20,6 +20,6 @@ public class Pantalla_Inicio extends AppCompatActivity {
                 startActivity(new Intent(Pantalla_Inicio.this,MainActivity.class));
                 finish();
             }
-        }, 9000);
+        }, 5000);
     }
 }
