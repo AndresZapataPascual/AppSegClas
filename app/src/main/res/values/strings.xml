@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">App SegClas</string>
-    <string name="user">Welcome to my App</string>
+    <string name="user">WELCOME TO MY APP</string>
     <string name="btn1">Login</string>
     <string name="btn2">Ingresar</string>
     <string name="Alarma">Crear Alarma</string>
@@ -15,4 +15,8 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="titulo">CALCULADORA</string>
+    <string name="texto1">Numero: </string>
+    <string name="textobase">Ingrese el numero</string>
+    <string name="btncalculadora">Calculadora</string>
 </resources>

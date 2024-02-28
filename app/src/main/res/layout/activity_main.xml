@@ -14,12 +14,12 @@
         android:orientation="vertical"
         android:layout_gravity="center">
 
-
-
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
             android:id="@+id/usuario"
+            android:textSize="20dp"
             android:text="@string/user"/>
     </LinearLayout>
 
@@ -76,6 +76,15 @@
             android:id="@+id/Camara"
             android:text="@string/Camara">
 
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/calculadora"
+            android:text="@string/btncalculadora">
 
         </Button>
     </LinearLayout>

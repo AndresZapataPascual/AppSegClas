@@ -18,7 +18,7 @@ import android.content.Intent;
 public class MainActivity extends AppCompatActivity {
 
     TextView nombreUsuario;
-    Button btn1,btn2, Send, Alarma,Camara;
+    Button btn1,btn2, Send, Alarma,Camara, calculadora;
     String Tag = "Prueba";
 
     @Override
@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         Send =findViewById(R.id.btnSend);
         Alarma = findViewById(R.id.Alarma);
         Camara = findViewById(R.id.Camara);
+        calculadora = findViewById(R.id.calculadora);
 
 
         btn1.setOnClickListener(new View.OnClickListener() {
@@ -66,6 +67,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 dispatchTakePictureIntent();
+            }
+        });
+
+        calculadora.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent abrircalculadora = new Intent(MainActivity.this, calculadora.class);
+                startActivity(abrircalculadora);
             }
         });
     }
