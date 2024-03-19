@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".PantallaTwo">
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_image_view"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/perfil1" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_gravity="center">
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/usuarioDos"
-            android:text="@string/user"/>
+        android:layout_marginStart="16dp"
+        android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/text_remitente"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textoAnterior"
-            android:text="@string/user"/>
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_asunto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
+
+        <!-- Agrega más TextViews para otros campos del correo electrónico si es necesario -->
+
     </LinearLayout>
+
 </LinearLayout>
+
+
